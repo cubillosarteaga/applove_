@@ -1,0 +1,345 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+.fijo{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  bottom: 30px;
+  z-index: 1;
+}
+/*.cabeza{
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+*/
+
+}
+
+.wo{
+  width: 1300px;
+}
+/*text-transform: uppercase;//font-family: 'Raleway', sans-serif;*/
+header div a{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding-left: 40px;
+  position: relative;
+  left: 120px;
+  top: 15px;
+  height: 60px;
+  
+  
+
+
+
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-right: 180px;
+  position: relative;
+  bottom: 31px;
+
+
+}
+/* dimensiones de  1300 x519*/
+.home{
+  background:url(bg-home.jpg;);
+  width: 1300px;
+  height: 519px;
+  vertical-align: middle;
+   
+
+}
+/*para alinear vertical/align*/
+body{
+  margin: 25px;
+  font-size: 16px;
+  line-height: 1.71429;
+  vertical-align: middle;
+  width: 1300px;
+  height: 1000px;
+}
+
+.segundo div{
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  position: relative;
+  left: 200px;
+  top: 80px;
+  text-align: center;
+  width: 850px;
+  vertical-align: middle;
+  margin-bottom: -290px;
+
+}
+
+.segundo .cosas h2{
+  font-size: 20px;
+  margin-top: 50px;
+
+}
+
+.segundo .cosas h1{
+  font-size: 48px;
+
+}
+
+.segundo .cosas .chico{
+  font-size: 14px;
+  position: relative;
+  bottom: 40px;
+  
+}
+
+.segundo .cosas .servicio{
+  font-size: 14px;
+  position: relative;
+  bottom: -26px;
+  background: #2ECC71;
+  padding: 10px;
+  color: #fff;
+  
+
+}
+
+
+
+.home{
+  margin-top: -25px;
+}
+.tercero{
+  background: #F17C72;
+  width: 1300px;
+  height: 850px;
+  margin-top: 500px;
+  color: #fff;
+  padding-top: 30px;
+  text-align: center;
+  
+}
+
+
+
+.dos{
+  margin-top: 0px;
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.icon{
+  width: 200px;
+  height: 200px;
+  
+}
+.ico{
+  width: 200px;
+  height: 200px;
+}
+
+.ic{
+  width: 200px;
+  height: 200px;
+}
+
+.flotante {
+  float: left;
+  margin-left: 200px;
+  
+}
+.flota{
+  float: left;
+  margin-right: 5px;
+  margin-left: 130px;
+}
+
+.flot{
+  float: left;
+  margin-right: 5px;
+  margin-left: 130px;
+}
+
+h5{
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h6{
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  top: 20px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+
+.principal{
+  vertical-align: middle;
+  background: #fff;
+
+}
+
+.principal .hero{
+  width: 950px;
+  height: 1000px;
+  position: relative;
+  left: 160px;
+  bottom: 70px;
+}
+
+
+.wo{
+  
+  height: 2200px;
+}
+.workk .wo h2{
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 50px;
+  margin-top: 65px;
+  color: #373B47;
+}
+
+
+/*footer color #373B47, clear para lograr que quede por debajo de las fotos*/
+.pie{
+  clear: both;
+  background: #373B47;
+  width: 1300px;
+  height: 80px;
+  color: #7F7F7F;
+  position: relative;
+  bottom: 1000px;
+}
+/*clase para alinear y manipular el texto*/
+.futer{
+  text-align: center;
+  padding-top: 25px;
+
+}
+/*lista para las fotos y sus respectivas descripciones*/ 
+ul{
+  list-style: none;
+  display: inline-block;
+  clear: both;
+  position: relative;
+  bottom: 1000px;
+  margin-left: 40px;
+  
+
+}
+/*imagenes floten*/
+img{
+  width: 320px;
+  height: 245px;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+
+li{
+  display: inline-block;
+  margin-left: 30px;
+
+}
+/*modificar texto de las fotos*/
+h4{
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
